@@ -19,9 +19,9 @@ dot.prototype.init = function() {
   this.size = 1 + Math.random() * 20;
   this.y = -this.size;
   this.color = {
-    h: 45,
+    h: 37,
     s: 100,
-    v: 45
+    v: 37
   };
   this.speed = 1 + Math.random();
 }
